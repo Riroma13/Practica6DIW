@@ -1,0 +1,41 @@
+/*Paleta de colores
+    -Morado Claro: #7843C4
+    -Morado Oscuro: #431A7D
+    -Rosa claro: #E1A1BB
+    -Rosa oscuro: #FFA1BB
+    -Gris: #F8F9FA
+*/
+
+.bg-color-g {
+    background-color: #F8F9FA;
+}
+
+.bg-color-mc {
+    background-color: #7843C4;
+}
+
+.bg-color-mo {
+    background-color: #431A7D;
+}
+
+.bg-color-rc {
+    background-color: #E1A1BB;
+}
+
+.bg-color-ro {
+    background-color: #FFA1BB;
+}
+
+body {
+    background-image: url("../img/bgLog-Reg.jpg");
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 500px;
+    min-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
